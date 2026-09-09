@@ -1,4 +1,4 @@
-# Your startup name here
+# BYU Faculty Time scheduler
 
 [My Notes](notes.md)
 
