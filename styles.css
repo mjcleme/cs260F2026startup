@@ -69,6 +69,10 @@ a:hover {
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
+.card strong {
+  overflow-wrap: anywhere;
+}
+
 .form-control:focus,
 .form-select:focus {
   border-color: var(--trail-green);
