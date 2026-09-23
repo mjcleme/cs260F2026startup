@@ -27,7 +27,11 @@
           <p class="text-uppercase small fw-bold text-success">Saturday, October 12</p>
           <h1 id="welcome-heading" class="display-4 fw-semibold">Make room for <em>the good kind</em> of tired.</h1>
           <p class="lead">Find a trail that fits your pace, invite your people, and keep every small adventure in one place.</p>
-          <a class="btn btn-success" href="trails.html">Find a trail <span aria-hidden="true">↗</span></a>
+          <div class="d-flex flex-wrap gap-2 align-items-center">
+            <a class="btn btn-success" href="trails.html">Find a trail <span aria-hidden="true">↗</span></a>
+            <button id="surpriseButton" class="btn btn-outline-success" type="button">Surprise me</button>
+          </div>
+          <p id="trailSuggestion" class="small fw-bold text-success mt-3 mb-0" aria-live="polite"></p>
         </div>
         <div class="col-md-7"><img class="img-fluid w-100" src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1200&q=85" alt="Hiker walking through a green mountain valley"></div>
       </div>
@@ -70,5 +74,15 @@
 
   <footer class="container border-top py-4 d-flex justify-content-between small text-body-secondary"><span>© 2026 TrailMates</span><span>Made for outside people.</span><span><a href="trails.html">Explore</a> · <a href="profile.html">Account</a></span></footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script>
+    const trails = ['Lake Blanche Trail', 'Silver Lake Loop', 'Mount Olympus'];
+    const surpriseButton = document.querySelector('#surpriseButton');
+    const trailSuggestion = document.querySelector('#trailSuggestion');
+
+    surpriseButton.addEventListener('click', () => {
+      const trail = trails[Math.floor(Math.random() * trails.length)];
+      trailSuggestion.textContent = `Your next adventure: ${trail}`;
+    });
+  </script>
 </body>
 </html>
