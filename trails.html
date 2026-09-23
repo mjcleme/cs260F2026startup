@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore Trails | TrailMates</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">TM</span> TrailMates</a>
+    <nav aria-label="Primary navigation"><a href="index.html">Home</a><a class="active" href="trails.html">Explore trails</a><a href="profile.html">My profile</a></nav>
+    <div class="user-chip" aria-label="Signed in user"><span class="avatar">JR</span> Jamie Rivera</div>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-intro"><p class="eyebrow">YOUR OUTDOOR INDEX</p><h1>Go somewhere<br><em>worth remembering.</em></h1><p>Trails selected for your pace, your people, and the weather this week.</p></section>
+    <section class="filters" aria-label="Trail filters"><label for="search">Search nearby <input id="search" type="search" placeholder="Try “waterfall” or “easy”"></label><label for="difficulty">Difficulty <select id="difficulty"><option>All levels</option><option>Easy</option><option>Moderate</option><option>Hard</option></select></label><button class="button button-dark" type="button">Use my location</button></section>
+    <section class="trail-list" aria-labelledby="recommendations-heading"><div class="section-heading"><div><p class="eyebrow">SALT LAKE VALLEY</p><h2 id="recommendations-heading">Recommended for you</h2></div><span class="muted">12 trails</span></div>
+      <article class="trail-row"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&q=85" alt="Lush green forest with a path"><div><span class="tag">EASY</span><h3>Silver Lake Loop</h3><p>Brighton · 2.7 mi · 1 hr 12 min</p><span class="rating">★ 4.8 <span class="muted">(182 hikers)</span></span></div><a class="round-link" href="index.html" aria-label="Plan Silver Lake Loop">↗</a></article>
+      <article class="trail-row"><img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=500&q=85" alt="Hiker on a ridge above a lake"><div><span class="tag blue-tag">MODERATE</span><h3>Lake Blanche Trail</h3><p>Big Cottonwood · 6.8 mi · 3 hr 45 min</p><span class="rating">★ 4.9 <span class="muted">(241 hikers)</span></span></div><a class="round-link" href="index.html" aria-label="Plan Lake Blanche Trail">↗</a></article>
+      <article class="trail-row"><img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=500&q=85" alt="Rocky mountain trail under a blue sky"><div><span class="tag warm-tag">HARD</span><h3>Mount Olympus</h3><p>Wasatch Front · 7.0 mi · 5 hr 10 min</p><span class="rating">★ 4.7 <span class="muted">(96 hikers)</span></span></div><a class="round-link" href="profile.html" aria-label="Save Mount Olympus">↗</a></article>
+      <!-- Third-party service placeholder: weather and trail conditions will be fetched from OpenWeather and a trail API. -->
+    </section>
+  </main>
+  <footer class="site-footer"><span>© 2026 TrailMates</span><span>Conditions updated by weather service placeholder</span><span><a href="index.html">Home</a> · <a href="profile.html">Account</a></span></footer>
+</body>
+</html>

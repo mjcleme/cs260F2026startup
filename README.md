@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # BYU Faculty Time scheduler
 
 [My Notes](notes.md)
 
 Faculty have a hard time organizing their time. Faculty are lazy.
+=======
+# TrailMates
+
+[My Notes](notes.md)
+
+TrailMates helps hikers find a trail that fits their pace, plan a group outing, and keep saved adventures in one place.
+>>>>>>> 04dc064 (First)
 
 > [!NOTE]
 > This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
@@ -12,7 +20,7 @@ Faculty have a hard time organizing their time. Faculty are lazy.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+TrailMates makes weekend hiking easier by combining trail discovery, group planning, and a lightweight activity feed. A hiker can browse nearby trails, save favorites, and see which friends are joining the next outing.
 
 ### Design
 
@@ -29,16 +37,21 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Browse recommended trails with distance, difficulty, ratings, and images.
+- Plan an upcoming hike and see live group messages.
+- Manage a profile with saved trails and hiking statistics.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
+<<<<<<< HEAD
 - **HTML** - create content about faculty
 - **CSS** - Description here
+=======
+- **HTML** - Three linked semantic pages for the home dashboard, trail explorer, and profile.
+- **CSS** - Shared responsive styling with a warm outdoor visual system.
+>>>>>>> 04dc064 (First)
 - **React** - Description here
 - **Service** - Description here
 - **DB/Login** - Description here
@@ -71,15 +84,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Created `index.html`, `trails.html`, and `profile.html`.
+- [x] **Proper HTML element usage** - Each page uses `header`, `nav`, `main`, and `footer` with accessible labels.
+- [x] **Links** - Shared navigation and footer links connect all three pages.
+- [x] **Text** - Added TrailMates application content for hikers.
+- [x] **3rd party API placeholder** - Added a marked weather and trail-conditions service placeholder on the Explore page.
+- [x] **Images** - Added descriptive trail and hiking imagery with alt text.
+- [x] **Login placeholder** - Added the signed-in user display and account placeholder on the Profile page.
+- [x] **DB data placeholder** - Added saved trails and profile stats with a marked database placeholder.
+- [x] **WebSocket placeholder** - Added a live Trail talk feed with a marked WebSocket placeholder.
 
 ## 🚀 CSS deliverable
 
